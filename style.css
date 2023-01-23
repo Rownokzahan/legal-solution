@@ -6,3 +6,9 @@
     width: 100%;
     background-size: cover;
 }
+
+img.h-50{
+    height: 70vh !important;
+    filter: brightness(45%);
+}
+
