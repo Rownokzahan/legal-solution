@@ -12,3 +12,6 @@ img.h-50{
     filter: brightness(45%);
 }
 
+.accordion-button{
+    background-color:#F3F3F3;
+}
