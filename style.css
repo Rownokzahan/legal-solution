@@ -21,6 +21,10 @@ h6 {
     border: 0;
 }
 
+.btn-primary:hover {
+    background-color: #906f47;
+}
+
 .banner {
     background-image: url('./images/banner.png');
     background-repeat: no-repeat;
