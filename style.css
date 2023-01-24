@@ -1,4 +1,4 @@
-.banner{
+.banner {
     background-image: url('./images/banner.png');
     background-repeat: no-repeat;
     background-position: center;
@@ -7,11 +7,21 @@
     background-size: cover;
 }
 
-img.h-50{
+.btn-primary {
+    background-color: #b68c5a;
+    border: 0;
+}
+
+img.h-50 {
     height: 70vh !important;
     filter: brightness(45%);
 }
 
-.accordion-button{
-    background-color:#F3F3F3;
+.accordion-button {
+    background-color: #F3F3F3;
+}
+
+.btn-primary.send-btn{
+    position: relative;
+    left: -10px;
 }
