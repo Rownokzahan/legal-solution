@@ -1,3 +1,26 @@
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Poppins&display=swap');
+
+p {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 800;
+    color: #414040;
+    font-family: 'EB Garamond', serif;
+}
+
+.btn-primary {
+    background-color: #b68c5a;
+    border: 0;
+}
+
 .banner {
     background-image: url('./images/banner.png');
     background-repeat: no-repeat;
@@ -7,9 +30,14 @@
     background-size: cover;
 }
 
-.btn-primary {
-    background-color: #b68c5a;
-    border: 0;
+@media only screen and (max-width:576px) {
+    .consult-btn {
+        width: 100%;
+    }
+}
+
+.bg-gradient {
+    background-image: linear-gradient(180deg, #F3F3F3 0%, rgba(243, 243, 243, 0) 100%) !important;
 }
 
 img.h-50 {
@@ -21,7 +49,7 @@ img.h-50 {
     background-color: #F3F3F3;
 }
 
-.btn-primary.send-btn{
+.btn-primary.send-btn {
     position: relative;
     left: -10px;
 }
